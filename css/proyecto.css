@@ -1,0 +1,62 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --test: #8D2053;
+    --test2: #510F45;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+}
+
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Krub", sans-serif;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+
+.imagenproyecto1 {
+    background-image: url(/img/proyecto1.png);
+    padding: 20rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.imagenbd {
+    background-image: url(/img/bd.png);
+    padding: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagenproyecto2 {
+    background-image: url(/img/proyecto2.png);
+    padding: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+header h2 {
+    text-align: center;
+    color: var(--blanco);
+}
+
+section h2 {
+    color: var(--blanco);
+    font-size:16px;
+}
